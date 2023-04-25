@@ -1,0 +1,17 @@
+<div class="mt-3">
+      <img [src]="dog.message"
+width="300p"
+class="shadow-lg rounded"
+>
+<div class="display-6">
+    <span *ngFor="let name of getBreed()">
+            {{name | titlecase }}
+    </span>
+
+</div>
+<br>
+<div class=" btn btn-primary" (click)="ngOnInit()">
+Proximo
+</div>
+
+</div>
